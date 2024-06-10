@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+for (i = 1; i <= 100; i++) {
+  if (i % 15 === 0) { // Check for Fizz-Buzz first (divisible by both 3 and 5)
+    console.log("Fizz-Buzz");
+  } else if (i % 3 === 0) { // Check for Fizz if not already FizzBuzz
+    console.log("Fizz");
+  } else if (i % 5 === 0) { // Check for Buzz if not already FizzBuzz
+    console.log("Buzz");
+  } else {
+    console.log(i);
+  }
+}
+
+</script>
+</html>
