@@ -1,3 +1,8 @@
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,15 +13,19 @@
 <body>
     <h1>Hello</h1>
     <input type="text" name="" id="num1" placeholder="Type">
+    <input type="text" name="" id="num2" placeholder="Type">
     <button onclick="getSquare()">Submit</button>
     <h2 id="dekh"></h2>
 </body>
 
 <script>
     function getSquare(){
-        number= document.getElementById("num1").value;
-        res = `Square of ${number } is ${number*number}`;
-        document.getElementById("dekh").innerHTML = res;
+        number1= parseInt(document.getElementById("num1").value)
+        number2= parseInt(document.getElementById("num2").value)
+        add = number1+number2;
+
+        res = `Sum of  ${number1} and ${number2} is ${add}`;
+        document.getElementById("dekh").innerText = res;
     }
 </script>
 </html>
