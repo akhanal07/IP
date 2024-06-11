@@ -3,15 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Change Button and Paragraph Behavior</title>
 </head>
-<button id="Mybutton">Press</button>
 <body>
+    <button id="Mybutton">Click Me</button>
+    <p id="Cl">This is a paragraph</p>
+
     <script>
-        button=document.getElementById("Mybutton");
-        button.addEventListener("click",function(){
-            console.log("HI")
-        })
+        const button = document.getElementById("Mybutton");
+        button.addEventListener("click", function() {
+            console.log("HI");
+        });
+
+        const para = document.getElementById("Cl");
+        para.addEventListener("click", function() {
+            para.style.backgroundColor = "red";
+        });
     </script>
 </body>
 </html>
