@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FizzBuzz</title>
+</head>
+<body>
+    <h1>FizzBuzz</h1>
+    <input type="number" id="num1" placeholder="Enter a number">
+    <button onclick="fizzBuzz()">Check</button>
+    <br><br>
+    <h2 id="result"></h2>
+
+    <script>
+        function fizzBuzz() {
+            let number = document.getElementById("num1").value;
+            let result = "";
+
+            for (let i = 1; i <= number; i++) { // Loop iterates from 1 to user's number
+                if (i % 15 === 0) {
+                    result = "Fizz-Buzz";
+                } else if (i % 3 === 0) {
+                    result = "Fizz";
+                } else if (i % 5 === 0) {
+                    result = "Buzz";
+                } else {
+                    result = i;
+                }
+
+                document.getElementById("result").innerText += result + "\n "; // Add result with space
+            }
+        }
+    </script>
+</body>
+</html>
