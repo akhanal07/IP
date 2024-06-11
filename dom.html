@@ -9,6 +9,9 @@
     
 
     <div id="my">Nothing</div>
+    <br>
+    <div id="DD">kkkk</div>
+    <br>
     <p class="Cl">para1</p>
     <br><br>
     <button onclick="changeDOM()">Submit</button>
@@ -18,9 +21,11 @@
 function changeDOM(){
     document.getElementById("my").innerHTML="Something";
     para = document.getElementsByClassName("Cl");
+    alldiv= document.getElementById("DD");
 
     para[0].innerHTML="New";
-    console.log(para)
+    console.log(para);
+    alldiv.style.backgroundColor="red"
 }     
   </script>
 
