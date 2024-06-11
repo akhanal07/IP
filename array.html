@@ -42,28 +42,44 @@
 
 
     //................................................ FOR LOOPS IN ARRAY .............................................................
-    let arr=[25,35,46,78];
-    for (i=0;i<arr.length;i++){
-        console.log(arr[i])
-    }
+    // let arr=[25,35,46,78];
+    // for (i=0;i<arr.length;i++){
+    //     console.log(arr[i])
+    // }
 
 
 
 
  const stud= [{
         "name":"Ayush",
-        "rollno":22,
+        "marks":22,
     },{
         "name":"Aryan",
-        "rollno":2,
+        "marks":21,
     },{
         "name":"Chirayu",
-        "rollno":23,
+        "marks":23,
     }]
 
+    totalMarks=0;
     for (i=0;i<stud.length;i++){
         console.log(stud[i]['name'])
+        console.log(stud[i]['marks'])
+
+        totalMarks += stud[i].marks;
     }
+    console.log(totalMarks)
+
+
+
+
+    
+
+
+
+
+
+    
 
 
 
