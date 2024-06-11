@@ -56,14 +56,14 @@
 
 
 
-function add(...arr) {
-  let total = 0;
-  for (let i = 0; i < arr.length; i++) {
-    total += arr[i]; 
-  }
-   total;
-}
-console.log(add(1, 2, 3, 4)); 
+// function add(...arr) {
+//   let total = 0;
+//   for (let i = 0; i < arr.length; i++) {
+//     total += arr[i]; 
+//   }
+//   return total;
+// }
+// console.log(add(1, 2, 3, 4)); 
 
 
 
@@ -78,6 +78,14 @@ function outerfunction(){
     return innerfunction();
 }
 outerfunction();
+
+
+
+//....................................NO NEED TO CALL............................................
+
+(function greet(){
+    console.log("GM")
+})()
 
 
 
