@@ -9,15 +9,19 @@
     
 
     <div id="my">Nothing</div>
+    <p class="Cl">para1</p>
     <br><br>
     <button onclick="changeDOM()">Submit</button>
 
 
   <script>
 function changeDOM(){
-    document.getElementById("my").innerHTML="Something"
-}
-       
+    document.getElementById("my").innerHTML="Something";
+    para = document.getElementsByClassName("Cl");
+
+    para[0].innerHTML="New";
+    console.log(para)
+}     
   </script>
 
 
