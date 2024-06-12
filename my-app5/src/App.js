@@ -12,7 +12,7 @@ function App() {
         
         <h1>HELLO</h1>
 
-        <Greet></Greet>
+        <Greet name = "Ayush" />
         <Greet></Greet>
         <Greet></Greet>
         <Greet></Greet>

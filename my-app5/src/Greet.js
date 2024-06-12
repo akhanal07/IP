@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Greet() {
+function Greet(props) {
   return (
-    <div>Hello React</div>
+    <div>Hello React{props.name}</div>
   )
 }
 
