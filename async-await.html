@@ -1,13 +1,21 @@
 <script>
 
-    async function OK(){
-        let response = await fetch ("https://reqres.in/api/users?page=1");
+    async function OK0(){
 
-        let result = await response.json();
+        try{
+            let response = await fetch ("https://reqres.in/api/users?page=1");
 
-        console.log(result.data);
+            let result = await response.json();
+
+            console.log( result.data);
+
+        }
+        
+        catch{
+            console.log("Error")
+        }
     }
 
-    OK();
+    OK0();
 
 </script>
