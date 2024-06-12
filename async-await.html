@@ -1,0 +1,13 @@
+<script>
+
+    async function OK(){
+        let response = await fetch ("https://reqres.in/api/users?page=1");
+
+        let result = await response.json();
+
+        console.log(result.data);
+    }
+
+    OK();
+
+</script>
