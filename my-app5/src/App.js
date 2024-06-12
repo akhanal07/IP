@@ -12,7 +12,7 @@ function App() {
         
         <h1>HELLO</h1>
 
-        <Greet name = "Ayush is here "></Greet>
+        <Greet name = "Ayush was here in the "city ="World"></Greet>
         <Greet></Greet>
         <Greet></Greet>
         <Greet></Greet>

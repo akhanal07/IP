@@ -2,7 +2,7 @@ import React from 'react'
 
 function Greet(props) {
   return (
-    <div>Hello World {props.name}</div>
+    <div>Hello  {props.name}  {props.city}</div>
   )
 }
 
