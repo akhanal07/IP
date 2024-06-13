@@ -6,6 +6,7 @@ import Sub from './Sub';
 import Circle from './Circle';
 import Info from './Info';
 import MyComp from './MyComp';
+import Counter from './Counter';
 
 function App() {
   return (
@@ -37,8 +38,19 @@ function App() {
         <br></br>
         <br></br>
         <br></br>
+        <hr></hr>
+        <hr></hr>
+        <hr></hr>
 
         <MyComp></MyComp>
+        <br></br>
+        <br></br>
+        <hr></hr>
+        <hr></hr>
+        <hr></hr>
+        <br></br>
+        <br></br>
+        <Counter></Counter>
         
     </div>
   );
