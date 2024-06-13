@@ -9,6 +9,7 @@ import MyComp from './MyComp';
 import Counter from './Counter';
 import Hello from './Hello';
 import AddNo from './AddNo';
+import Contact from './Contact';
 
 function App() {
   return (
@@ -16,17 +17,17 @@ function App() {
     <div className="App">
       
      
-      <h1>HELLO WORLD</h1>
+      {/* <h1>HELLO WORLD</h1>
         
         
 
-        {/* <Greet name = "Ayush was here in the "city ="World"></Greet>
+        <Greet name = "Ayush was here in the "city ="World"></Greet>
         <Greet></Greet>
         <Greet></Greet>
         <Greet></Greet>
         <Greet></Greet>
         <Greet></Greet>
-        <Greet></Greet> */}
+        <Greet></Greet>
 
         <Add a ={2}b={3}></Add>
         <br></br>
@@ -64,10 +65,13 @@ function App() {
         <br></br>
         <br></br>
         <hr></hr>
-        <AddNo></AddNo>
-        <br></br>
-        <br></br>
-        <hr></hr>
+        <AddNo></AddNo> */}
+
+
+
+
+        <Contact></Contact>
+        
         
     </div>
   );
