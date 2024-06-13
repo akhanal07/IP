@@ -7,6 +7,7 @@ import Circle from './Circle';
 import Info from './Info';
 import MyComp from './MyComp';
 import Counter from './Counter';
+import Hello from './Hello';
 
 function App() {
   return (
@@ -56,6 +57,7 @@ function App() {
         <br></br>
         <br></br>
         <hr></hr>
+        <Hello></Hello>
         
     </div>
   );
