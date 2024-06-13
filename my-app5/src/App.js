@@ -4,6 +4,7 @@ import Greet from './Greet';
 import Add from './Add';
 import Sub from './Sub';
 import Circle from './Circle';
+import Info from './Info';
 
 function App() {
   return (
@@ -28,6 +29,8 @@ function App() {
         <Sub p={4}q={2}></Sub>
         <br></br>
         <Circle r={2}></Circle>
+        <br></br>
+        <Info> This is my place</Info>
         
 
           
