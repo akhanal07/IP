@@ -65,6 +65,9 @@ function App() {
         <br></br>
         <hr></hr>
         <AddNo></AddNo>
+        <br></br>
+        <br></br>
+        <hr></hr>
         
     </div>
   );
