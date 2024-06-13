@@ -22,14 +22,12 @@ function App() {
         <Greet></Greet>
         <Greet></Greet> */}
 
-
         <Add a ={2}b={3}></Add>
         <br></br>
         <Sub p={4}q={2}></Sub>
-
         
 
-        
+          
       
     </div>
   );
