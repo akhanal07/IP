@@ -33,9 +33,6 @@ function App() {
         <br></br>
         <Info> <h3>This is my place</h3></Info>
         
-
-          
-      
     </div>
   );
 }
