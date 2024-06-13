@@ -5,6 +5,7 @@ import Add from './Add';
 import Sub from './Sub';
 import Circle from './Circle';
 import Info from './Info';
+import MyComp from './MyComp';
 
 function App() {
   return (
@@ -32,6 +33,12 @@ function App() {
         <br></br>
         <br></br>
         <Info> <h3>This is my place</h3></Info>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+
+        <MyComp></MyComp>
         
     </div>
   );
