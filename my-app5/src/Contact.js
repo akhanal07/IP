@@ -9,7 +9,7 @@ function Contact() {
 
 
     function onSubmit(){
-        const total = `this is ${name} roll no ${roll} of city ${city}`;
+        const total = `This is ${name} roll no ${roll} of city ${city}`;
         setTotal(total);
     }
   return (
