@@ -3,6 +3,7 @@ import './App.css';
 import Greet from './Greet';
 import Add from './Add';
 import Sub from './Sub';
+import Circle from './Circle';
 
 function App() {
   return (
@@ -25,6 +26,8 @@ function App() {
         <Add a ={2}b={3}></Add>
         <br></br>
         <Sub p={4}q={2}></Sub>
+        <br></br>
+        <Circle r={2}></Circle>
         
 
           
