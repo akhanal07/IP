@@ -11,9 +11,6 @@ function AddNo() {
         SetTotal(total); 
       }
       
-
-    
-
       return (
         <>
           <div>
