@@ -30,7 +30,8 @@ function App() {
         <br></br>
         <Circle r={2}></Circle>
         <br></br>
-        <Info> This is my place</Info>
+        <br></br>
+        <Info> <h3>This is my place</h3></Info>
         
 
           
