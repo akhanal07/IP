@@ -34,7 +34,6 @@ function AddNo() {
             <h3>The sum is: {total}</h3>
             <h3>The multiplication is: {total1}</h3>
             <h3>The difference  is: {total2}</h3>
-
           </div>
         </>
       )
