@@ -58,6 +58,9 @@ function App() {
         <br></br>
         <hr></hr>
         <Hello></Hello>
+        <br></br>
+        <br></br>
+        <hr></hr>
         
     </div>
   );
