@@ -1,8 +1,10 @@
 import React from 'react'
 
 function Circle({r}) {
+    const pi = Math.PI;
   return (
-    <div> Area of Circle of radius {r} cm is {3.14*r*r} cm.sq <br></br> Circumference of Circle of radius {r} cm is {2*3.14*r} cm</div>
+    
+    <div> Area of Circle of radius {r} cm is {pi*r*r} cm.sq <br></br> Circumference of Circle of radius {r} cm is {2*pi*r} cm</div>
   )
 }
 
