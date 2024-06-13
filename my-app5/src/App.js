@@ -51,6 +51,11 @@ function App() {
         <br></br>
         <br></br>
         <Counter></Counter>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <hr></hr>
         
     </div>
   );
