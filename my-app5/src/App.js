@@ -8,6 +8,7 @@ import Info from './Info';
 import MyComp from './MyComp';
 import Counter from './Counter';
 import Hello from './Hello';
+import AddNo from './AddNo';
 
 function App() {
   return (
@@ -60,7 +61,10 @@ function App() {
         <Hello></Hello>
         <br></br>
         <br></br>
+        <br></br>
+        <br></br>
         <hr></hr>
+        <AddNo></AddNo>
         
     </div>
   );
