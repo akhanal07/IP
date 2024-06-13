@@ -14,7 +14,7 @@ function AddNo() {
       return (
         <>
           <div>
-            <input onChange={(e) => SetNum1(e.target.value)} type='text' placeholder='Write the first no'></input><br></br>
+            <input onChange={(e) => SetNum1(e.target.value)} type='num' placeholder='Write the first no'></input><br></br>
             <input onChange={(e) => SetNum2(e.target.value)} type='text' placeholder='Write the second no'></input><br></br>
             <button onClick={sum}>Add</button>
             <h3>The sum is: {total}</h3>
