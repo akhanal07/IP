@@ -37,8 +37,6 @@ function AddNo() {
           </div>
         </>
       )
-      
-  
 }
 
 export default AddNo
