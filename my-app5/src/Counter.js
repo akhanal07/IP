@@ -7,7 +7,7 @@ function Counter() {
   return (
     <>
     <div>{num}</div>
-    <button onClick={()=>SetNum(num+1)}>Click Me</button>
+    <button onClick={()=>SetNum(num+1)}>Click </button>
     </>
   )
  
