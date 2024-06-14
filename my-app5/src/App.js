@@ -11,6 +11,7 @@ import Hello from './Hello';
 import AddNo from './AddNo';
 import Contact from './Contact';
 import Contactme from './Contactme';
+import MyData from './MyData';
 
 function App() {
   return (
@@ -71,7 +72,9 @@ function App() {
 
 
 
-        <Contact></Contact>
+        {/* <Contact></Contact> */}
+
+        <MyData></MyData>
         
         
         
