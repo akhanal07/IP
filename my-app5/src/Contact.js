@@ -53,8 +53,8 @@
 import React, { useState } from 'react';
 
 function Contact() {
-  const [userInput, setUserInput] = useState(''); // State for user input
-  const [squares, setSquares] = useState([]); // State for squares
+  const [userInput, setUserInput] = useState(''); 
+  const [squares, setSquares] = useState([]); 
 
   const handleInputChange = (event) => {
     setUserInput(event.target.value);
@@ -62,13 +62,13 @@ function Contact() {
 
   const calculateSquares = () => {
     const parsedNumber = parseInt(userInput);
-    if (!isNaN(parsedNumber)) { // Check if valid number
+    if (!isNaN(parsedNumber)) { 
       const square = parsedNumber * parsedNumber;
-      setSquares([square]); // Set squares state with the calculated square
+      setSquares([square]); 
     } else {
-      alert('Please enter a valid number.'); // Handle invalid input
+      alert('Please enter a valid number.'); 
     }
-    setUserInput(''); // Clear user input after calculation
+    setUserInput(''); 
   };
 
   return (
@@ -82,7 +82,7 @@ function Contact() {
       />
       <button onClick={calculateSquares}>Calculate Squares</button>
       <ul>
-        {squares.length > 0 && ( // Only display list if there's a square
+        {squares.length > 0 && ( 
           <li key={0}>Square: {squares[0]}</li>
         )}
       </ul>
@@ -91,6 +91,8 @@ function Contact() {
 }
 
 export default Contact;
+
+
 
 
 
