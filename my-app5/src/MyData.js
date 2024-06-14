@@ -1,50 +1,60 @@
-import axios from "axios";
-import React, { useState, useEffect } from "react";
+import axios from 'axios'
+import React from 'react'
 
 function MyData() {
-  const [data, setData] = useState([]);
+    const [userData, setUserData] = React.useState([]);
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await axios.get("https://reqres.in/api/users?page=2");
-        setData(response.data.data);
-      } catch (error) {
-        console.error("Error fetching data:", error);
-      }
-    };
+    React.useEffect( () => {
+        const myFunction = async () => {
+            const response = await axios.get("https://reqres.in/api/users?page=2");
+            console.log(response.data.data);
+            setUserData(response.data.data)
+        }
+        myFunction();
+    },[])
 
-    fetchData();
-  }, []);
+    const insertData = () => {
+        var obj = {
+            "id": 7,
+            "email": "michael.lawson@reqres.in",
+            "first_name": "Michael",
+            "last_name": "Lawson",
+            "avatar": "https://reqres.in/img/faces/7-image.jpg"
+        }
+ 
+    userData.push(obj);
+
+    setUserData([...userData])
+    }
 
   return (
     <div>
-      <table border="1cm">
-        <thead>
-          <tr>
-            <td>id</td>
-            <td>name</td>
-            <td>email</td>
-            <td>avatar</td>
-          </tr>
-        </thead>
-        <tbody>
-          {data.map((user, key) => (
-            <tr key={key}>
-              <td>{user.id}</td>
-              <td>
-                {user.first_name} {user.last_name}
-              </td>
-              <td>{user.email}</td>
-              <td>
-                <img src={user.avatar} alt="user avatar" />
-              </td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+        <table border ='1'>
+<thead>
+    <td>Id</td>
+    <td>Name</td>
+    <td>Email</td>
+    <td>Avatar</td>
+</thead>
+<tbody>
+
+        {userData.map((user, key) => {
+            return <tr key={key}>
+            <td>{user.id}</td>
+            <td>{user.first_name} {user.last_name}</td>
+            <td>{user.email}</td>
+            <td><img src = {user.avatar} /></td>
+        </tr>
+            })}
+</tbody>
+        </table>
+        <br></br>
+        <br></br>
+        <button onClick = {insertData}>Insert Data</button>
+
     </div>
-  );
+  )
+
 }
 
-export default MyData;
+export default MyData
