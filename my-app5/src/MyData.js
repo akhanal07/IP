@@ -3,9 +3,11 @@ import React from 'react'
 
 function MyData() {
     
+
+    
     const myFunction=async()=>{
         const data= await axios.get("https://reqres.in/api/users?page=1")
-        console.log(data.data);
+        console.log(data.data.data);
     }
     myFunction();
   return (
