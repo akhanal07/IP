@@ -12,6 +12,8 @@ import AddNo from './AddNo';
 import Contact from './Contact';
 import Contactme from './Contactme';
 import MyData from './MyData';
+import UseFetch from './UseFetch';
+
 
 function App() {
   return (
@@ -74,7 +76,9 @@ function App() {
 
         {/* <Contact></Contact> */}
 
-        <MyData></MyData>
+        {/* <MyData></MyData> */}
+
+       <UseFetch></UseFetch>
         
         
         
