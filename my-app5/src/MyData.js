@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React from 'react'
+import UseFetch from './UseFetch';
 
 function MyData() {
     const [userData, setUserData] = React.useState([]);
@@ -51,6 +52,9 @@ function MyData() {
         <br></br>
         <br></br>
         <button onClick = {insertData}>Insert Data</button>
+
+
+        <UseFetch></UseFetch>
 
     </div>
   )
