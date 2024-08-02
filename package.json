@@ -1,0 +1,15 @@
+{
+  "name": "ip",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "yarn": "^1.22.22"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
