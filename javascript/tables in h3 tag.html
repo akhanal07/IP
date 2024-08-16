@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <input type="text" name="" id="num2" placeholder="Type">
+    <button onclick="getCube()">Submit</button>
+    <br><br>
+    <h3 id="ak"></h3>
+    
+</body>
+<script>
+
+
+function getCube(){
+    num2 = document.getElementById("num2").value;
+    res='';
+
+for (i=10;i>=1;i--){
+    {
+        res+=i*num2+".........."
+        document.getElementById("ak").innerHTML=res
+   
+    }
+
+}
+
+}
+
+</script>
+</html>
